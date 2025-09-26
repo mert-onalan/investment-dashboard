@@ -9,24 +9,27 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.1",
-    "@mui/icons-material": "^7.3.2",
-    "@mui/material": "^7.3.2",
-    "@reduxjs/toolkit": "^2.9.0",
-    "highcharts": "^12.4.0",
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.1",
+    "@mui/icons-material": "7.3.2",
+    "@mui/material": "7.3.2",
+    "@reduxjs/toolkit": "2.9.0",
+    "classnames": "2.5.1",
+    "highcharts": "12.4.0",
+    "highcharts-react-official": "3.2.2",
     "next": "15.5.2",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "react-redux": "^9.2.0"
+    "react-redux": "9.2.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
+    "@eslint/eslintrc": "3",
+    "@types/node": "20",
+    "@types/react": "19",
+    "@types/react-dom": "19",
+    "eslint": "9",
     "eslint-config-next": "15.5.2",
-    "typescript": "^5"
+    "sass": "1.92.1",
+    "typescript": "5"
   }
 }
