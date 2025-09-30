@@ -1,7 +1,13 @@
+import ControlPanel from '@/components/control-panel';
+import DashboardPanel from '@/components/dashboard-panel';
+
+import './page.scss';
+
 export default function Home() {
   return (
-    <div>
-        Investment Dashboard
+    <div className="investment-dashboard-container">
+        <ControlPanel />
+        <DashboardPanel />
     </div>
   );
 }
