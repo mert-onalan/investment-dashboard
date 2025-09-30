@@ -1,0 +1,9 @@
+.portfolio-pie-chart-widget {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+
+    .chart-container {
+        flex: 1;
+    }
+}
