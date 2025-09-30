@@ -1,0 +1,44 @@
+.widget-container {
+    flex: 1;
+    opacity: 1;
+    flex-basis: 100%;
+    padding: 10px;
+    overflow: hidden;
+
+    .loading-container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &.collapse-animation {
+        animation: collapse-widget 250ms ease forwards;
+    }
+
+    &.expand-animation {
+        animation: expand-widget 250ms ease forwards;
+    }
+}
+
+@keyframes collapse-widget {
+    to {
+        flex: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes expand-widget {
+    from {
+        flex: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        opacity: 0;
+    }
+}
