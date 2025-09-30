@@ -1,0 +1,11 @@
+.widget-header {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    .widget-name {
+        font-weight: 800;
+    }
+}
